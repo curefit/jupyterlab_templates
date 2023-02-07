@@ -29,7 +29,7 @@ dev_requires = requires + [
     "mock",
     "pytest",
     "pytest-cov>=2.6.1",
-    "Sphinx>=1.8.4",
+    # "Sphinx>=1.8.4",
     "sphinx-markdown-builder>=0.5.2",
 ]
 
