@@ -20,8 +20,8 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 requires = ["jupyterlab>=3.0.0"]
 
-dev_requires = requires + [
-    "black>=20.",
+dev_requires = [
+    "black==21.7b0",
     "bump2version>=1.0.0",
     "check-manifest",
     "flake8>=3.7.8",
@@ -31,7 +31,7 @@ dev_requires = requires + [
     "pytest-cov>=2.6.1",
     "Sphinx>=1.8.4",
     "sphinx-markdown-builder>=0.5.2",
-]
+] + requires
 
 data_spec = [
     # Lab extension installed by default:
